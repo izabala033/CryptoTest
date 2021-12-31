@@ -58,7 +58,7 @@ class MainFragment : Fragment() {
 
         viewModel.error.observe(viewLifecycleOwner, {
             binding.loadingProgress.visibility = View.GONE
-            Toast.makeText(context,"Error, try refreshing again later (limit per minute reached?)", Toast.LENGTH_LONG).show()
+            Toast.makeText(context,"Error, try refreshing again later (rate limit reached?)", Toast.LENGTH_LONG).show()
         })
     }
 
