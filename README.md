@@ -1,0 +1,2 @@
+# CryptoTest
+Simple cryptocurrency checker
