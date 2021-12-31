@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CryptoTest</string>
+    <string name="error_loading">Error loading data\nTry refreshing</string>
+    <string name="_24h_change">24h change</string>
+    <string name="price">Price ($)</string>
+    <string name="name">Name</string>
+</resources>
